@@ -8,7 +8,6 @@ for (let i = 0; i < array.length; i++) {
 }
 
 // method 2 reduce function
-
 const newsum = array.reduce((add, pre) => {
   return add + pre;
 }, 0);
